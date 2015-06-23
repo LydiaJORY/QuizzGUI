@@ -1,0 +1,135 @@
+body { 
+    background: #000; 
+    font-family: helvetica,Arial; 
+    width: 100%;
+    margin: 0; 
+    padding: 0; 
+    color: #333333;
+    overflow: hidden;
+}
+
+h1 {
+    color:white;
+    margin-left: 3%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+ul {
+    margin-right:10%;
+    list-style: none;
+
+}
+
+li {
+    cursor: pointer;
+}
+
+
+input { 
+    background: red; 
+    padding: 10px; 
+    cursor: pointer; 
+    color: #fff; 
+    border: 0; 
+    margin: 10px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+ul {
+    padding:0;
+    margin: 0;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: red;
+}
+
+
+
+
+.header {
+    margin-top:100px; 
+}
+
+
+.header ul {
+    min-width: 320px;
+    background-color: #000;
+    position: fixed;
+    top: 22px;
+    right: 213px;
+    padding: 0; margin: 0;
+}
+
+
+.header__menu li {
+    float: left;
+    margin-right: 2%;
+    text-align: right;
+}
+
+
+.logo {
+    float: left;
+    text-align: right;;
+    position: fixed;
+    left: 30px;
+}
+
+
+.wrap {
+    width: 100%;
+     cursor: crosshair;
+}
+
+.loader{
+	position: relative;
+	display: inline-block;
+}
+
+.loader::after {
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    width: 50px;
+    height: 50px;    
+    background-image: url("../images/loader.png");
+    background-repeat: no-repeat;
+    transform:translateX(-50%) translateY(-50%);
+    //transition : background 1.5s steps(3) infinite;
+}
+
+.loader:hover::after {
+    animation:loading 1s steps(4) infinite;
+}
+
+@keyframes clignotement {
+    0% {opacity: 1;}
+    25% {opacity: 0.2;}
+    50% {opacity: 0.8;}
+    75% {opacity: 0.4;}
+    100% {opacity: 1;}
+}
+
+@keyframes loading {
+    from{ background-position: 0 0;}
+    to {background-position: 0 -200px;}
+}
+
+.hidden{
+    display: none;
+}

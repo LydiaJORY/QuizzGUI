@@ -1,0 +1,12 @@
+ErrorDocument 400 http://www.jory.fr/Quizz/400.php
+ErrorDocument 401 http:/www.jory.fr/Quizz/401.php
+ErrorDocument 402 http:/www.jory.fr/Quizz/402.php
+ErrorDocument 403 http://www.jory.fr/Quizz/403.php
+ErrorDocument 404 http://www.jory.fr/Quizz/404.php
+ErrorDocument 405 http://www.jory.fr/Quizz/405.php
+ErrorDocument 500 http://www.jory.fr/Quizz/500.php
+ErrorDocument 501 http://www.jory.fr/Quizz/501.php
+ErrorDocument 502 http://www.jory.fr/Quizz/502.php
+ErrorDocument 503 http://www.jory.fr/Quizz/503.php
+ErrorDocument 504 http://www.jory.fr/Quizz/504.php
+ErrorDocument 505 http://www.jory.fr/Quizz/505.php

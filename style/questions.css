@@ -1,0 +1,44 @@
+.question {
+    width: 20%;
+    background-color: black;
+    border: 0px solid #fff;
+    float: left;
+    position: relative;
+}
+
+.question img {
+    width: 100%;
+    opacity: 0.5;
+}
+
+.question img:hover {
+	animation: clignotement 0.5s;
+ }
+
+ .question_correcte::before{
+	content: '';
+ 	background-color: green;
+ 	position: absolute;
+ 	height: 100%;
+ 	width: 100%;
+ 	top: 0;
+ 	right: 0;
+ 	opacity: 0.5;
+ 	
+
+ }
+
+  .question_fausse::before{
+	content: '';
+ 	background-color: red;
+ 	position: absolute;
+ 	height: 100%;
+ 	width: 100%;
+ 	top: 0;
+ 	right: 0;
+ 	opacity: 0.5;
+ 	
+
+ }
+
+
